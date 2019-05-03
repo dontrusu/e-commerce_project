@@ -1,0 +1,46 @@
+h1 {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+img {
+    width: 20px;
+    margin-right: 5px;
+}
+
+a {
+    color: #eee;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_link {
+    height: auto;
+    float: left;
+    margin-left: 50px;
+}
+
+li {
+    list-style: none;
+}
+
+.main_menu li ul {
+	display: none;
+	height: auto;									
+    font-size: 20px;
+	padding: 0;		
+}
+
+.main_menu li:hover ul {
+    cursor: pointer;
+	display: block;
+}

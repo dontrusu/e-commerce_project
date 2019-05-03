@@ -1,1 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans');
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box; 
+}
+
+
+body {
+  min-height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #000;
+  color: #eee;
+  font-family: 'Open Sans', sans-serif;
+  padding: 35px 60px;
+}
 
