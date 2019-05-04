@@ -16,7 +16,7 @@ library.add(
 );
 
 
-class Sicial_Network extends Component {
+class Social_Network extends Component {
     render() {
         return (
             <div className='social_wrapper'>
@@ -51,4 +51,4 @@ class Sicial_Network extends Component {
     } 
 }
 
-export default Sicial_Network;
+export default Social_Network;
