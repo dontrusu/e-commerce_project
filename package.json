@@ -8,12 +8,7 @@
     "@fortawesome/free-regular-svg-icons": "^5.8.1",
     "@fortawesome/free-solid-svg-icons": "^5.8.1",
     "@fortawesome/react-fontawesome": "^0.1.4",
-<<<<<<< HEAD
-    "mdbreact": "^4.13.0",
-    "rc-collapse": "^1.11.1",
-=======
     "bootstrap": "^4.3.1",
->>>>>>> b1293fdccf50ece51e25f7446857e880701c31c7
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.0-beta.8",
     "react-dom": "^16.8.6",
