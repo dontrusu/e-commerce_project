@@ -14,5 +14,10 @@ body {
   background-color: #000;
   color: #eee;
   font-family: 'Open Sans', sans-serif;
-  padding: 35px 60px;
+  padding: 35px 65px;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0
 }

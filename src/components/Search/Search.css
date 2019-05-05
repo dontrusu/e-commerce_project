@@ -1,4 +1,4 @@
-.form_wrapper {
+/* .form_wrapper {
     width: 100%;
     position: relative;
 }
@@ -19,13 +19,7 @@ form {
     outline: none; 
 }
   
-.icon {
-    width: 20px;
-    height: 25px;
-    position: absolute;
-    top: 17px;
-    margin-left: 5px;
-} 
+
   
 .button {
     padding: 15px 25px;
@@ -35,5 +29,42 @@ form {
     background-color: #acacac;
     border: 1px solid #d0d0d0;
     cursor: pointer;
+    outline: none; 
+} */
+
+.search_wrapper {
+    position: relative;
+    margin-top: 55px;
+}
+
+input.form-control {
+    background-color: #3b3b3b;
+    border: 1px solid #d0d0d0;
+    width: 50px;
+    cursor: pointer;
+}
+
+.input-group-lg>.form-control {
+    padding: .6rem 2rem;
+}
+
+.icon {
+    width: 20px;
+    height: 25px;
+    position: absolute;
+    z-index: 9999;
+    top: 12px;
+    left: 12px;
+} 
+
+.input-group {
+    width: 45%;
+    margin-left: auto;
+    margin-right: 20%;
+}
+
+input.form-control:focus {
+    background-color: #3b3b3b;
+    border: 1px solid #d0d0d0;
     outline: none; 
 }
