@@ -1,0 +1,26 @@
+.list_wrapper {
+    margin-top: 35px;
+    width: 30%;
+}
+
+.burger_menu {
+    margin: 10px 10px 0 0;
+    cursor: pointer;
+}
+
+.headline {
+    display: flex;
+}
+
+h2 {
+    margin: 0;
+    font-size: 35px;
+}
+
+ul {
+    display: block;
+}
+
+a {
+    cursor: pointer;
+}

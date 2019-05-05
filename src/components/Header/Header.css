@@ -1,8 +1,30 @@
-h1 {
+.brand {
     font-family: 'Lato', sans-serif;
-    text-transform: uppercase;
-    font-weight: 600;
     font-size: 45px;
+    color: #eee !important;
+    margin: 1% 10% 0 0;
+}
+
+a {
+    font-size: 20px;
+    
+}
+
+#nav-dropdown {
+    width: 100%;
+    background-color: none !important;
+    padding: 0;
+}
+
+.nav-link, .link{
+    color: #eee !important;
+    margin-right: 15px;
+    padding: 0;
+}
+
+.header {
+    background-color: none !important;
+    color: #eee;
 }
 
 img {
@@ -10,37 +32,11 @@ img {
     margin-right: 5px;
 }
 
-a {
-    color: #eee;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
-    text-decoration: none;
+
+.nav-fill {
+    margin: 0;
 }
 
-header {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.main_link {
-    height: auto;
-    float: left;
-    margin-left: 50px;
-}
-
-li {
-    list-style: none;
-}
-
-.main_menu li ul {
-	display: none;
-	height: auto;									
-    font-size: 20px;
-	padding: 0;		
-}
-
-.main_menu li:hover ul {
-    cursor: pointer;
-	display: block;
+.collapse {
+    margin-bottom: 30px;
 }

@@ -20,7 +20,7 @@ class Social_Network extends Component {
     render() {
         return (
             <div className='social_wrapper'>
-                <a href='#'>
+                <a className='text-danger' href='#'>
                     <FontAwesomeIcon
                         className='social_icon instagram' 
                         icon={['fab', 'instagram']} 
@@ -28,7 +28,7 @@ class Social_Network extends Component {
                         fixedWidth 
                     />
                 </a>
-                <a href='#'>
+                <a className='text-primary' href='#'>
                     <FontAwesomeIcon 
                         className='social_icon facebook' 
                         icon={['fab', 'facebook']} 
@@ -36,7 +36,7 @@ class Social_Network extends Component {
                         fixedWidth 
                     />
                 </a>
-                <a href='#'>
+                <a className='text-white' href='#'>
                     <FontAwesomeIcon
                         className='social_icon mail'
                         icon='envelope'
