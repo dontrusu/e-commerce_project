@@ -1,0 +1,42 @@
+.catalog {
+	display: inline-block;
+	margin-top: 2em;
+}
+
+.title {
+	font-size: 1.5em;
+}
+
+.react-sanfona{
+	display: inline-block;
+}
+
+.react-sanfona-item-body{
+	margin-left: 1.4em;
+}
+
+.categoryWrapper {
+	white-space: nowrap
+}
+
+.category {
+	margin-top: 0.5em;
+    color: #eee;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    text-align: left;
+}
+
+svg {
+	margin-bottom: 3.5px;
+}
+
+button {
+	background:none;
+    border:none;
+    color: #eee;
+    font-family: 'Open Sans', sans-serif;
+    outline: 0;
+    font-size: 1em;
+    text-align: left;
+}

@@ -1,0 +1,11 @@
+.social_wrapper {
+    position: fixed;
+    top: 45%;
+    right: 60px;
+}
+
+.social_icon {
+    display: block;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
